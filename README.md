@@ -41,6 +41,11 @@ You also need to add permissions to access Internet, obviously.
 	<uses-permission android:name="android.permission.INTERNET" />
 
 
+At last, but not least, you need to add this to your activity's OnCreate method:
+
+	IO.Fabric.Sdk.Android.Fabric.With(this, new Com.Crashlytics.Android.Crashlytics());
+
+
 It's pretty strait forward.
 
 If you want, you can add a pre-build script to your project to get the manifest's "android:versionName" and set it right into the String.xml file, but that's up to you.
