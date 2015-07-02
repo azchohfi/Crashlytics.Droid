@@ -1,0 +1,10 @@
+<metadata>
+  <attr path="/api/package[@name='io.fabric.sdk.android.services.settings']/class[@name='AppIconSettingsData']" name="visibility">public</attr>
+  <attr path="/api/package[@name='io.fabric.sdk.android.services.settings']/class[@name='AbstractAppSpiCall']" name="visibility">public</attr>
+  <attr path="/api/package[@name='io.fabric.sdk.android.services.settings']/interface[@name='AppSpiCall']" name="visibility">public</attr>
+  <attr path="/api/package[@name='com.crashlytics.android']/class[@name='Crashlytics']/method[@name='doInBackground' and count(parameter)=0]" name="managedReturn">Java.Lang.Object</attr>
+  <attr path="/api/package[@name='com.crashlytics.android.core']/class[@name='CrashlyticsCore']/method[@name='doInBackground' and count(parameter)=0]" name="managedReturn">Java.Lang.Object</attr>
+  <remove-node path="/api/package[@name='io.fabric.sdk.android.services.concurrency']/class[@name='PriorityFutureTask']"/>
+  <remove-node path="/api/package[@name='io.fabric.sdk.android.services.concurrency']/class[@name='PriorityTask']"/>
+  <remove-node path="/api/package[@name='io.fabric.sdk.android.services.concurrency']/class[@name='PriorityAsyncTask']"/>
+</metadata>
