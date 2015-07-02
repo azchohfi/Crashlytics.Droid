@@ -22,9 +22,9 @@ Add this to your manifest file (inside your application tag, inside your manifes
 	<meta-data android:name="com.crashlytics.ApiKey" android:value="[YOUR-API-KEY]" />
 
 
-Replace the [YOUR-API-KEY] with your api key. (You can get it here: https://fabric.io/settings/organizations, selection your organization, then clicking on the "API Key" button).
+Replace the [YOUR-API-KEY] with your api key. (You can get it here: https://fabric.io/settings/organizations, select your organization, then click on the "API Key" button).
 
-One other thing you need, since there is no equivalent to the crashlytics build tool for Xamarin, is a string resource named 'com.crashlytics.android.build_id', with your build_id, equivalent to your manifest's "android:versionName", or anything you want actually.
+One other thing you need, since there is nothing equivalent to the crashlytics build tool for Xamarin, is a string resource named 'com.crashlytics.android.build_id', with your build_id, equivalent to your manifest's "android:versionName", or anything you want actually.
 
 So add this to the file named Resources\values\String.xml:
 
