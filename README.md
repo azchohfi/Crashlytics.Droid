@@ -44,3 +44,9 @@ You also need to add permissions to access Internet, obviously.
 It's pretty strait forward.
 
 If you want, you can add a pre-build script to your project to get the manifest's "android:versionName" and set it right into the String.xml file, but that's up to you.
+
+--- NOTE ---
+
+This WORKS, but it won't create the project at Fabric's site, so you need to download Android Studio, download Fabric's Plugin, and follow the hole proccess of creating a Fabric's app inside Android Studio. ->Remember to use the exact same package name so the crashes sent to crashlytics actually report back to you.<-
+
+It's a PITA, but it's the only way I've found to create the project at Fabric's site.
