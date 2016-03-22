@@ -7,4 +7,5 @@
   <remove-node path="/api/package[@name='io.fabric.sdk.android.services.concurrency']/class[@name='PriorityFutureTask']"/>
   <remove-node path="/api/package[@name='io.fabric.sdk.android.services.concurrency']/class[@name='PriorityTask']"/>
   <remove-node path="/api/package[@name='io.fabric.sdk.android.services.concurrency']/class[@name='PriorityAsyncTask']"/>
+  <remove-node path="/api/package[@name='com.crashlytics.android.core']/class[@name='CrashlyticsCore.CrashMarkerCheck']"/>
 </metadata>
