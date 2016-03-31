@@ -2,6 +2,8 @@
 
 Crashlytics binding project for Android
 
+![alt tag](https://chohfi.visualstudio.com/DefaultCollection/_apis/public/build/definitions/642271bf-04a0-4044-8524-834575f246e0/4/badge)
+
 Crashlytics does not support Xamarin.Android nor does it provides a binding project that we can use with our project.
 
 I've developed this binding project trying to solve this problem.
