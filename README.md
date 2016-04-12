@@ -21,7 +21,7 @@ Actually there are no JAR files there, only ARR, but there is no aparent reason 
 Download the source, compile the binding project.
 Add this to your manifest file (inside your application tag, inside your manifest tag):
 
-	<meta-data android:name="com.crashlytics.ApiKey" android:value="[YOUR-API-KEY]" />
+	<meta-data android:name="io.fabric.ApiKey" android:value="[YOUR-API-KEY]" />
 
 
 Replace the [YOUR-API-KEY] with your api key. (You can get it here: https://fabric.io/settings/organizations, select your organization, then click on the "API Key" button).
