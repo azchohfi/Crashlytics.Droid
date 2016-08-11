@@ -50,19 +50,19 @@
     <TransformFile Include="Transforms\EnumMethods.xml" />
   </ItemGroup>
   <ItemGroup>
-    <EmbeddedReferenceJar Include="Jars\answers-1.3.6.jar" />
+    <EmbeddedReferenceJar Include="Jars\answers-1.3.8.jar" />
   </ItemGroup>
   <ItemGroup>
-    <EmbeddedJar Include="Jars\crashlytics-2.5.5.jar" />
+    <EmbeddedJar Include="Jars\crashlytics-2.6.1.jar" />
   </ItemGroup>
   <ItemGroup>
-    <EmbeddedJar Include="Jars\crashlytics-core-2.3.8.jar" />
+    <EmbeddedJar Include="Jars\crashlytics-core-2.3.10.jar" />
   </ItemGroup>
   <ItemGroup>
-    <EmbeddedJar Include="Jars\fabric-1.3.10.jar" />
+    <EmbeddedJar Include="Jars\fabric-1.3.12.jar" />
   </ItemGroup>
   <ItemGroup>
-    <EmbeddedReferenceJar Include="Jars\beta-1.1.4.jar" />
+    <EmbeddedReferenceJar Include="Jars\beta-1.2.1.jar" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath)\Xamarin\Android\Xamarin.Android.Bindings.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

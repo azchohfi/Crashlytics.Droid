@@ -11,10 +11,7 @@ I've developed this binding project trying to solve this problem.
 Any help is appreciated!
 
 PS:
-The JAR files were taken from the public Crashlytics files from this URL:
-https://twittersdk.artifactoryonline.com/twittersdk/public/
-
-Actually there are no JAR files there, only ARR, but there is no aparent reason for this, so I extracted the JAR files from each of the ARR files and made the binding project.
+The JAR files(extracted form the AAR files) are downloaded from the official Fabric's Maven (https://maven.fabric.io/public), using a little PowerShell script (Crashlytics.Droid\Jars\get-dependencies.ps1)
 
 ---------HOW TO USE---------
 

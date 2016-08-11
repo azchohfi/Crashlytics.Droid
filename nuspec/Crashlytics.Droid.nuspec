@@ -2,7 +2,7 @@
 <package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
   <metadata>
     <id>Crashlytics.Droid.Binding</id>
-    <version>1.1.0</version>
+    <version>1.2.0</version>
     <title>Crashlytics.Droid official bindings</title>
     <authors>azchohfi</authors>
     <owners>Alexandre Chohfi</owners>
@@ -11,7 +11,7 @@
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
     <description>Android binding package for Fabric.IO's Crashlytics. For more information, follow this description: https://github.com/azchohfi/Crashlytics.Droid/blob/master/README.md</description>
     <tags>crashlytics android droid xamarin fabric fabricio io</tags>
-	<iconUrl>http://i.imgur.com/e1crsbb.png</iconUrl>
+	<iconUrl>https://raw.githubusercontent.com/azchohfi/Crashlytics.Droid/master/nuspec/icon.png</iconUrl>
   </metadata>
   <files>
   	<file src="..\Crashlytics.Droid\bin\Release\Crashlytics.Droid.dll" target="lib\MonoAndroid" />
