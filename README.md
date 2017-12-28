@@ -2,7 +2,7 @@
 
 Crashlytics binding project for Android
 
-![alt tag](https://chohfi.visualstudio.com/DefaultCollection/_apis/public/build/definitions/642271bf-04a0-4044-8524-834575f246e0/4/badge)
+## Description
 
 Crashlytics does not support Xamarin.Android nor does it provides a binding project that we can use with our project.
 
@@ -13,7 +13,13 @@ Any help is appreciated!
 PS:
 The JAR files(extracted form the AAR files) are downloaded from the official Fabric's Maven (https://maven.fabric.io/public), using a little PowerShell script (Crashlytics.Droid\Jars\get-dependencies.ps1)
 
----------HOW TO USE---------
+## Download
+
+NuGet: [![NuGet Badge](https://chohfi.visualstudio.com/_apis/public/build/definitions/642271bf-04a0-4044-8524-834575f246e0/10/badge)](https://www.nuget.org/packages/Crashlytics.Droid.Binding/)
+
+MyGet: [https://www.myget.org/F/azchohfi/api/v3/index.json](https://www.myget.org/F/azchohfi/api/v3/index.json)
+
+## How to use
 
 Download the source, compile the binding project.
 Add this to your manifest file (inside your application tag, inside your manifest tag):
@@ -49,7 +55,7 @@ It's pretty strait forward.
 
 If you want, you can add a pre-build script to your project to get the manifest's "android:versionName" and set it right into the String.xml file, but that's up to you.
 
---- NOTE ---
+## Note
 
 This WORKS, but it won't create the project at Fabric's site, so you need to download Android Studio, download Fabric's Plugin, and follow the whole proccess of creating a Fabric's app inside Android Studio. ->Remember to use the exact same package name so the crashes sent to crashlytics actually report back to you.<-
 
